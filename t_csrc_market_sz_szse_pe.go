@@ -1,4 +1,4 @@
-package models
+package sa_xorm_model
 
 type TCsrcMarketSzSzsePe struct {
 	CsrcId           string  `json:"csrc_id" xorm:"unique(csrc_id) VARCHAR(128)"`

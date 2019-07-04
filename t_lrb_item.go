@@ -1,4 +1,4 @@
-package models
+package sa_xorm_model
 
 type TLrbItem struct {
 	Id     string `json:"id" xorm:"not null pk VARCHAR(128)"`

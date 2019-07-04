@@ -1,4 +1,4 @@
-package models
+package sa_xorm_model
 
 type TCsrcMarket struct {
 	Plate           int     `json:"plate" xorm:"unique(plate) INT(10)"`

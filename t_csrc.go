@@ -1,4 +1,4 @@
-package models
+package sa_xorm_model
 
 type TCsrc struct {
 	CsrcCnName   string `json:"csrc_cn_name" xorm:"unique VARCHAR(1024)"`
