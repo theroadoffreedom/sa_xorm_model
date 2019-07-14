@@ -7,5 +7,5 @@ type TAutoFinanceReportIndex struct {
 	CreateTime     int    `json:"create_time" xorm:"INT(10)"`
 	State          int    `json:"state" xorm:"INT(10)"`
 	ReportType     int    `json:"report_type" xorm:"not null pk INT(10)"`
-	ReportTimeType int    `json:"report_time_type" xorm:"INT(10)"`
+	ReportTimeType int    `json:"report_time_type" xorm:"not null pk INT(10)"`
 }
